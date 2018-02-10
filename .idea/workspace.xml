@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd525e1d-4c90-4e4f-bef7-5621c2a58309" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/exportxlsx.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/xlsxwriter.class.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/main.php" afterPath="$PROJECT_DIR$/admin/main.php" />
-      <change beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-    </list>
+    <list default="true" id="bd525e1d-4c90-4e4f-bef7-5621c2a58309" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -313,12 +307,12 @@
       <workItem from="1517931319580" duration="90000" />
       <workItem from="1518012106176" duration="5360000" />
       <workItem from="1518093087906" duration="7892000" />
-      <workItem from="1518226577331" duration="5078000" />
+      <workItem from="1518226577331" duration="5216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18420000" />
+    <option name="totallyTimeSpent" value="18558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />

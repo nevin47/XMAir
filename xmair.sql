@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2018-02-08 15:17:20
+-- Generation Time: 2018-02-10 04:12:07
 -- 服务器版本： 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -34,6 +34,7 @@ CREATE TABLE `info_table` (
   `gender` int(11) NOT NULL,
   `birthday` date NOT NULL,
   `school` varchar(128) NOT NULL,
+  `workbase` varchar(128) NOT NULL DEFAULT '厦门',
   `payroad` tinyint(1) NOT NULL,
   `paytest` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -42,10 +43,12 @@ CREATE TABLE `info_table` (
 -- 转存表中的数据 `info_table`
 --
 
-INSERT INTO `info_table` (`id`, `name`, `gender`, `birthday`, `school`, `payroad`, `paytest`) VALUES
-(1, '小张', 1, '1999-02-03', '南京航空航天大学', 1, 1),
-(2, '小张', 1, '1999-02-03', '南京航空航天大学', 1, 1),
-(3, '小黑', 2, '1990-02-06', '南航', 0, 1);
+INSERT INTO `info_table` (`id`, `name`, `gender`, `birthday`, `school`, `workbase`, `payroad`, `paytest`) VALUES
+(1, '小张', 1, '1999-02-03', '南京航空航天大学', '厦门', 1, 1),
+(2, '小张', 1, '1999-02-03', '南京航空航天大学', '厦门', 1, 1),
+(3, '小黑', 2, '1990-02-06', '南航', '厦门', 0, 1),
+(4, '张三', 1, '1994-01-03', '厦门大学', '厦门', 1, 1),
+(5, '李四', 1, '1994-03-08', '厦门大学', '厦门', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -91,7 +94,7 @@ ALTER TABLE `user`
 -- 使用表AUTO_INCREMENT `info_table`
 --
 ALTER TABLE `info_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- 使用表AUTO_INCREMENT `user`
